@@ -1,0 +1,25 @@
+/* About Us */
+.about--section {
+    display: grid;
+    padding: 133.3px 85.3px;
+    align-items: center;
+    gap: 114.6px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about--section--img > img {
+    width: 100%;
+    height: 100%;
+  }
+  /* About Us Ends */
+
+  /* Skills & About Me */
+.section--title {
+    color: var(--heading-color);
+    font-size: 21px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-start;
+  }
