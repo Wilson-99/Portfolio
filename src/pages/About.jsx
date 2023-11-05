@@ -1,6 +1,14 @@
-import img from '../assets/imu.png'
-import { DiHtml5, DiCss3, DiJsBadge, DiMysql,
-  DiReact, DiDocker, DiPhp, DiLaravel } from "react-icons/di";
+import img from "../assets/imu.png";
+import {
+  DiHtml5,
+  DiCss3,
+  DiJsBadge,
+  DiMysql,
+  DiReact,
+  DiDocker,
+  DiPhp,
+  DiLaravel,
+} from "react-icons/di";
 
 const technologies = [
   { id: "html", name: "HTML5", icon: <DiHtml5 /> },
@@ -20,19 +28,23 @@ export default function About() {
         <div className="hero--section--content">
           <p className="section--title">Sobre mE</p>
           <p className="hero--section-description">
-            Desenvolvedor de software júnior com paixão pela programação e resolução de problemas.
-            Possuo conhecimento sólido em linguagens de programação, ferramentas de
-            desenvolvimento e metodologias ágeis/SCRUM. Comprometido em aprender continuamente
-            e contribuir para projetos de software de alta qualidade.
+            Desenvolvedor de software júnior com paixão pela programação e
+            resolução de problemas. Possuo conhecimento sólido em linguagens de
+            programação, ferramentas de desenvolvimento e metodologias
+            ágeis/SCRUM. Comprometido em aprender continuamente e contribuir
+            para projetos de software de alta qualidade.
           </p>
+          <a href="https://drive.google.com/file/d/1-hV5l5OZTINPJL2e6m2J4eoWSUB7lMSS/view?usp=drive_link">
+            <button className="btn btn-primary">Download CV</button>
+          </a>
         </div>
       </div>
       <div className="about--section--skills">
-      <h2 className="skill-title">Tecnologias</h2>
+        <h2 className="skill-title">Tecnologias</h2>
         <div className="skills">
           {technologies.map((tech) => (
             <div className="skill" id={tech.id} key={tech.id}>
-            <span>{tech.icon}</span>
+              <span>{tech.icon}</span>
               <p>{tech.name}</p>
             </div>
           ))}
