@@ -1,25 +1,77 @@
-/* About Us */
+/* About */
 .about--section {
-    display: grid;
-    padding: 133.3px 85.3px;
-    align-items: center;
-    gap: 114.6px;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .about--section--img > img {
-    width: 100%;
-    height: 100%;
-  }
-  /* About Us Ends */
+  display: grid;
+  padding: 133.3px 85.3px;
+  align-items: center;
+  gap: 114.6px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.about--section--skills {
+  width: 100%;
+  height: 100%;
+}
 
-  /* Skills & About Me */
-.section--title {
-    color: var(--heading-color);
-    font-size: 21px;
-    text-align: center;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 32px;
-    display: flex;
-    align-items: flex-start;
-  }
+.skills {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  color: var(--white);
+}
+
+.skill span {
+  font-size: 600%;
+}
+
+.skill p {
+  margin: 0;
+}
+
+.skill-title {
+  color: var(--white);
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+}
+/* About Ends */
+
+/* Start Skills */
+#html{
+  color: #E44D26
+}
+ 
+#css{
+  color: #1572B6
+}
+ 
+#js {
+  color: #F0DB4F
+}
+
+#mysql {
+  color: #00618A
+}
+
+#react {
+  color: #61DAFB
+}
+
+#docker {
+  color: #0db7ed
+}
+
+#laravel {
+  color: #f05340
+}
+
+#php {
+  color: #474a8a;
+}
+/* End Skills */
