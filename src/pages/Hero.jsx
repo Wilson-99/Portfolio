@@ -32,7 +32,8 @@ export default function Hero() {
           </p>
         </div>
         <div className="buttons">
-          <a href="https://drive.google.com/file/d/1-hV5l5OZTINPJL2e6m2J4eoWSUB7lMSS/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1-hV5l5OZTINPJL2e6m2J4eoWSUB7lMSS/view?usp=drive_link"
+          target="_blink">
             <button className="btn btn-primary">Download CV</button>
           </a>
           <Link
@@ -48,7 +49,7 @@ export default function Hero() {
         <div className="social-icons">
           {networking.map((networking) => (
             <div key={networking.id} id={networking.id}>
-              <a href={networking.link}>{networking.icon}</a>
+              <a href={networking.link} target="_blink">{networking.icon}</a>
             </div>
           ))}
         </div>

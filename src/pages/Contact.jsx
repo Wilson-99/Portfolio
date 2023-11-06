@@ -131,7 +131,7 @@ export default function Contact() {
               id={networking.id}
             >
               <div className="contact--icon">
-                <a href={networking.link}>{networking.icon}</a>
+                <a href={networking.link} target="_blink">{networking.icon}</a>
               </div>
               <div className="contact-info">
                 <h3>{networking.name}</h3>

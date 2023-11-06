@@ -34,7 +34,8 @@ export default function About() {
             ágeis/SCRUM. Comprometido em aprender continuamente e contribuir
             para projetos de software de alta qualidade.
           </p>
-          <a href="https://drive.google.com/file/d/1-hV5l5OZTINPJL2e6m2J4eoWSUB7lMSS/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1-hV5l5OZTINPJL2e6m2J4eoWSUB7lMSS/view?usp=drive_link"
+          target="_blink">
             <button className="btn btn-primary">Download CV</button>
           </a>
         </div>

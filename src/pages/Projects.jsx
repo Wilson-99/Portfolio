@@ -20,7 +20,7 @@ export default function Projects() {
                 <p className="stacks">Stacks: {item.stacks}</p>
               </div>
               <p className="text-sm portfolio--link">
-                <a href={item.link}>
+                <a href={item.link} target="_blink">
                   {item.button}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
