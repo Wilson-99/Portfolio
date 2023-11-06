@@ -1,5 +1,6 @@
 import avatar from "../assets/giphy.gif";
 import { Github, Linkedin } from "react-bootstrap-icons";
+import { Link } from "react-scroll";
 
 const networking = [
   {
@@ -34,7 +35,15 @@ export default function Hero() {
           <a href="https://drive.google.com/file/d/1-hV5l5OZTINPJL2e6m2J4eoWSUB7lMSS/view?usp=drive_link">
             <button className="btn btn-primary">Download CV</button>
           </a>
-          <button className="btn btn-secondary">Fale comigo</button>
+          <Link
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            to="Contact"
+          >
+            <button className="btn btn-secondary">Fale comigo</button>
+          </Link>
         </div>
         <div className="social-icons">
           {networking.map((networking) => (

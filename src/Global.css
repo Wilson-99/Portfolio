@@ -7,6 +7,7 @@ body {
   font-style: normal;
   background-color: #080808;
 }
+
 h1,
 h2,
 h3,
@@ -16,6 +17,7 @@ h6,
 p {
   margin: 0;
 }
+
 :root {
   --primary: #0F5253;
   --heading-color: #378;
@@ -24,6 +26,7 @@ p {
   --black: #080808;
   --white: #ffffff;
 }
+
 .btn {
   font-family: "Roboto";
   display: inline-block;
@@ -46,24 +49,29 @@ p {
   -ms-transition: background-color 0.5s;
   -o-transition: background-color 0.5s;
 }
+
 .btn-outline-primary {
   color: var(--primary);
   background-color: var(--white);
   border: 1px solid var(--primary);
 }
+
 .btn-outline-primary:hover {
   color: var(--white);
   background-color: var(--primary);
 }
+
 .btn-primary {
   color: var(--white);
   background-color: var(--primary);
   border: 1px solid var(--primary);
 }
+
 .btn-primary:hover {
   color: var(--primary);
   background-color: var(--white);
 }
+
 .btn-primary a {
   color: #fff;
   text-decoration: none;
@@ -74,10 +82,12 @@ p {
   background-color: var(--white);
   margin-left: 15px;
 }
+
 .btn-secondary:hover {
   color: var(--white);
   background-color: var(--primary);
 }
+
 /* Global CSS Ends */
 /* Main Headings */
 
@@ -87,12 +97,14 @@ h1 {
   font-weight: 700;
   line-height: 67px;
 }
+
 /* Heading 2 */
 h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 58px;
 }
+
 /* Heading 3 */
 h3 {
   font-size: 24px;
@@ -104,12 +116,13 @@ h3 {
 /* Pragraphs text large medium small */
 /* Body 1 */
 .text-lg {
-  color: var(--secondary);
+  color: var(--white);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
 }
+
 /* Body 2 */
 .text-md {
   color: var(--black);
@@ -118,6 +131,7 @@ h3 {
   font-weight: 400;
   line-height: 24px;
 }
+
 /* Body 3 */
 .text-sm {
   color: var(--black);
@@ -135,10 +149,9 @@ h3 {
   text-align: center;
   font-family: 'Indie Flower', cursive;
   font-weight: 700;
-  line-height: 32px;
-  display: flex;
-  align-items: flex-start;
+  line-height: 32px;  
 }
+
 /* Portfolio */
 .sub--title {
   color: var(--heading-color);
@@ -147,6 +160,7 @@ h3 {
   line-height: 24px;
   text-align: center;
 }
+
 /* Section Titles Ends */
 
 /* Start Networking */
@@ -155,6 +169,7 @@ h3 {
 }
 
 #linkedin {
-  color: #0077b5;
+  color: #fff;
 }
+
 /* End Networking */

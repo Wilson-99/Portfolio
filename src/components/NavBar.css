@@ -11,16 +11,19 @@
   left: 0;
   right: 0;
 }
-.navbar--items > ul {
+
+.navbar--items>ul {
   list-style: none;
   display: flex;
   align-items: right;
   gap: 42.667px;
   text-decoration: none;
 }
-.navbar--items ul > li > a {
+
+.navbar--items ul>li>a {
   text-decoration: none;
 }
+
 /* Navbar Content */
 .navbar--content {
   color: var(--primary);
@@ -31,6 +34,7 @@
   line-height: 24px;
   cursor: pointer;
 }
+
 .navbar--active-content {
   color: var(--secondary);
 }
