@@ -154,6 +154,7 @@ input[type="checkbox"] {
   .contact {
     display: flex;
     flex-direction: column;
+    gap: 1px;
   }
 
   .contact--form--container,
