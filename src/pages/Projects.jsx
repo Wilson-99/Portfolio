@@ -1,11 +1,10 @@
 import data from "../data/index.json";
-import { ArrowUp } from "react-bootstrap-icons";
 
 export default function Projects() {
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container">
-        <p className="section--title">Meu pOrtiFolio</p>
+        <p className="section--title">Portifolio</p>
       </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
@@ -20,7 +19,7 @@ export default function Projects() {
                 <p className="stacks">Stacks: {item.stacks}</p>
               </div>
               <p className="text-sm portfolio--link">
-                <a href={item.link}>
+                <a href={item.link} target="_blink">
                   {item.button}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
