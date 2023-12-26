@@ -26,7 +26,7 @@ export default function About() {
     <section id="AboutMe" className="about--section">
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <p className="section--title">Sobre mE</p>
+          <p className="section--title">Sobre mim</p>
           <p className="hero--section-description">
             Desenvolvedor de software júnior com paixão pela programação e
             resolução de problemas. Possuo conhecimento sólido em linguagens de
@@ -34,8 +34,10 @@ export default function About() {
             ágeis/SCRUM. Comprometido em aprender continuamente e contribuir
             para projetos de software de alta qualidade.
           </p>
-          <a href="https://drive.google.com/file/d/1-hV5l5OZTINPJL2e6m2J4eoWSUB7lMSS/view?usp=drive_link"
-          target="_blink">
+          <a
+            href="https://drive.google.com/file/d/1aAVuu2zgely89mucnnYgiknmJheFo7OX/view?usp=drive_link"
+            target="_blink"
+          >
             <button className="btn btn-primary">Download CV</button>
           </a>
         </div>
