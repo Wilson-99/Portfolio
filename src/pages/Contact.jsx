@@ -41,7 +41,8 @@ export default function Contact() {
   const {
     register,
     handleSubmit,
-    formState: { errors }, reset
+    formState: { errors },
+    reset,
   } = useForm({
     resolver: yupResolver(schema),
   });
@@ -52,7 +53,7 @@ export default function Contact() {
       message: data.message,
       email: data.email,
     };
-  
+
     try {
       const response = await emailjs.send(
         "service_jb2uxs6",
@@ -60,17 +61,16 @@ export default function Contact() {
         templateParams,
         "GYZ5dLYEzN4T34O0E"
       );
-      reset(); 
+      reset();
     } catch (err) {
       console.error("Erro", err);
     }
   };
-  
-  
+
   return (
     <section id="Contact" className="contact--section">
       <div>
-        <h2 className="section--title">Fale cOmiGo</h2>
+        <h2 className="section--title">Fale comigo</h2>
         <h3 className="contact--description">
           TEM ALGUM PROJECTO?
           <span> cOnTaCta-mE</span>
@@ -89,6 +89,7 @@ export default function Contact() {
                 className="contact--input text-md"
                 name="name"
                 id="name"
+                placeholder="Nome"
                 {...register("name")}
               />
               <p className="errors">{errors.name?.message}</p>
@@ -101,6 +102,7 @@ export default function Contact() {
                 className="contact--input text-md"
                 name="email"
                 id="email"
+                placeholder="Email"
                 {...register("email")}
               />
               <p className="errors">{errors.email?.message}</p>
@@ -131,7 +133,9 @@ export default function Contact() {
               id={networking.id}
             >
               <div className="contact--icon">
-                <a href={networking.link} target="_blink">{networking.icon}</a>
+                <a href={networking.link} target="_blink">
+                  {networking.icon}
+                </a>
               </div>
               <div className="contact-info">
                 <h3>{networking.name}</h3>

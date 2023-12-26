@@ -1,10 +1,10 @@
 /* Global CSS */
 body {
   margin: 0;
-  font-family: sans-serif;
   -webkit-font-smoothing: sans-serif;
   -moz-osx-font-smoothing: sans-serif;
   font-style: normal;
+  font-family: "Roboto";
   background-color: #080808;
 }
 
@@ -19,16 +19,15 @@ p {
 }
 
 :root {
-  --primary: #0F5253;
+  --primary: #0f5253;
   --heading-color: #378;
   --bg-shade: #f5fcff;
-  --secondary: #55A199;
+  --secondary: #55a199;
   --black: #080808;
   --white: #ffffff;
 }
 
 .btn {
-  font-family: "Roboto";
   display: inline-block;
   padding: 14px 32px;
   font-size: 16px;
@@ -147,9 +146,9 @@ h3 {
   color: var(--primary);
   font-size: 45px;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   font-weight: 700;
-  line-height: 32px;  
+  line-height: 32px;
 }
 
 /* Portfolio */

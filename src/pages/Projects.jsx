@@ -1,11 +1,10 @@
 import data from "../data/index.json";
-import { ArrowUp } from "react-bootstrap-icons";
 
 export default function Projects() {
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container">
-        <p className="section--title">Meu pOrtiFolio</p>
+        <p className="section--title">Portifolio</p>
       </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (

@@ -1,6 +1,7 @@
 @import "./Global.css";
 @import "./components/NavBar.css";
 @import "./components/Footer.css";
+@import "./components/ScrollButton.css";
 @import "./pages/About.css";
 @import "./pages/Hero.css";
 @import "./pages/Projects.css";
@@ -50,7 +51,7 @@
   }
 
   .portfolio--section--title {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .portfolio--section--container {
@@ -255,6 +256,9 @@
 
   .buttons {
     display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
   }
 
   .about--section {
